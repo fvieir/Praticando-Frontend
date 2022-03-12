@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header .title{
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.banner {
+    padding: 10px;
+}
+
+.banner .image {
+    width: 100%;
+}
