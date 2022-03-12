@@ -1,0 +1,35 @@
+:root{
+    --silver: #BBBBBB;
+    --orange: #f7551a;
+    --black: #000000;
+}
+
+.header{
+    background-color: var(--silver);
+}
+
+.box-menu{
+    position: relative;
+    width: 940px; /*Padrão da internet, para atender as varias telas de Desktop*/
+    margin: 0 auto; /*Tecnica para alinhar uma div ao centro*/
+    padding: 20px 0;
+}
+
+.menu{
+    position: absolute; /*Quando precisa colocar um elemento em um ponto especifico ele deve ficar como absolute e ter uma tag pai position relative, caso não haja ele ficara relativo a pagina.*/
+    top: 110px;
+    right: 0;
+}
+
+.menu .menu-items{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.menu a {
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
