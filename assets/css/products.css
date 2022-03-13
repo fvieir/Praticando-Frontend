@@ -33,3 +33,35 @@
     font-size: 22px;
     text-decoration: none;
 }
+
+.products{
+    width: 940px;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.list-items-products{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.headline-products{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.paragrafh-description{
+    font-size: 18px;
+}
+
+.paragrafh-price{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
