@@ -70,6 +70,21 @@ main {
     margin: 10px 0;
 }
 
+.btn {
+    display: block;
+    padding: 10px;
+    margin: 10px 0 0;
+    background-color: orange;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    transition: all 0.5s;
+    background-color: darkorange;
+}
+
 
 .footer{
     text-align: center;
