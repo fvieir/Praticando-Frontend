@@ -89,6 +89,18 @@ main {
     transform: scale(1.1)
 }
 
+main table {
+    margin: 20px; 
+}
+
+table thead {
+    background: var(--silver);
+}
+
+table td, thead th {
+    border: 1px solid #000000;
+    padding: 10px 15px;
+}
 
 .footer{
     text-align: center;
