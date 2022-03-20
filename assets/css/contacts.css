@@ -1,5 +1,5 @@
-'':root{
-    --silver: #BBBBBB;
+:root{
+    --silver: #CCCCCC;
     --orange: #f7551a;
     --black: #000000;
     --yellow:#C78C19;
@@ -74,15 +74,19 @@ main {
     display: block;
     padding: 10px;
     margin: 10px 0 0;
-    background-color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    background: orange;
     color: #FFF;
     border: none;
     border-radius: 3px;
+    transition: 1s all;
+    cursor: pointer;
 }
 
 .btn:hover{
-    transition: all 0.5s;
     background-color: darkorange;
+    transform: scale(1.1)
 }
 
 
