@@ -5,6 +5,10 @@
     --yellow:#C78C19;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header{
     background-color: var(--silver);
 }
@@ -119,14 +123,18 @@ table td, thead th {
     margin: 0 0 1em;
 }
 
-.benefits img {
-    width: 60%;
+.about strong {
+    font-style: italic;
 }
 
-.utensilio {
+.utensilios {
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
+}
+
+.benefits img {
+    width: 60%;
 }
 
 /*Fim da Home*/
