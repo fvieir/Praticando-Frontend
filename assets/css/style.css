@@ -1,70 +1,144 @@
-:root {
-    --silver: #CCC;
+:root{
+    --silver: #CCCCCC;
+    --orange: #f7551a;
+    --black: #000000;
+    --yellow:#C78C19;
 }
 
-*{
-   margin: 0;
-   padding: 0; 
+.header{
+    background-color: var(--silver);
 }
 
-.header .headline-1{
-    padding: 15px;
-    margin-left: 10px;
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
+
+.menu{
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+
+.menu .menu-items{
+    display: inline;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+.menu-items a {
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu .menu-items a:hover{
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 50px 0;
+}
+
+.form label,
+    p {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.input-default {
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.form legend {
+    margin: 10px 0;
+}
+
+.form .news {
+    margin: 10px 0;
+}
+
+.btn {
+    display: block;
+    padding: 10px;
+    margin: 10px 0 0;
+    font-weight: bold;
+    font-size: 18px;
+    background: orange;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: darkorange;
+    transform: scale(1.1)
+}
+
+main table {
+    margin: 20px; 
+}
+
+table thead {
+    background: var(--silver);
+}
+
+table td, thead th {
+    border: 1px solid #000000;
+    padding: 10px 15px;
+}
+
+/*Inicio css da pagina Home*/
 
 .banner {
-    padding: 2px 5px 0px;
-}
-
-.banner .image {
     width: 100%;
 }
 
-.about {
-    background-color: var(--silver);
-    padding: 15px;
-    margin: 0px 5px;
-}
-
-.h-center {
+.main-title {
     text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
 
-.headline-2{
-    margin: 30px 0px 20px;
+.about p {
+    margin: 0 0 1em;
 }
 
-.paragraph{
-    line-height: 1.6;
+.benefits img {
+    width: 60%;
+}
+
+.utensilio {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/*Fim da Home*/
+
+.footer{
     text-align: center;
-    margin-bottom: 20px;
-}
-
-.mission{
-    font-size: 20px;
-}
-
-.mission .emphasis{
-    color: red;
-}
-
-.headline-3 {
+    background: url('/assets/img/products/bg.jpg');
     padding: 20px;
 }
 
-.benefits-list{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-    padding: 50px;
+.footer p{
+    color: #FFF;
+    margin: 20px 0;
+    padding: 40px 0 ;
 }
-
-.list-itens {
-    font-style: italic;
-}
-
-.img-benefits{
-    width: 50%;
-}
-
