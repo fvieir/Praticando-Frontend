@@ -130,17 +130,36 @@ table td, thead th {
     margin: 0 20px 20px 0;
 }
 
-.benefits img {
-    width: 60%;
-}
-
-.map {
-    padding: 1em 0 0;
+.map ,.benefits {
+    padding: 3em 0 0;
 }
 
 .map p{
     margin: 2em 0;
     text-align: center;
+}
+
+.benefits-contents {
+    width: 640px;
+    margin: 1em auto;
+}
+
+.benefits-list{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.benefits-list .items {
+  line-height: 1.5;  
+}
+
+.items:first-child {
+    font-weight: bold;
+}
+
+.benefits img {
+    width: 60%;
 }
 
 .video{
