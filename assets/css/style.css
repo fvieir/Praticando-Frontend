@@ -5,9 +5,6 @@
     --yellow:#C78C19;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
 
 .header{
     background-color: var(--silver);
@@ -135,6 +132,14 @@ table td, thead th {
 
 .benefits img {
     width: 60%;
+}
+
+.map {
+    padding: 1em 0 0;
+}
+
+.map p{
+    margin: 2em 0;
 }
 
 /*Fim da Home*/
