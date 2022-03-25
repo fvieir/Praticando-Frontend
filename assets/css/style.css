@@ -115,6 +115,12 @@ table td, thead th {
     clear: left;
 }
 
+.main-title::first-letter{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 .about {
   margin: 3em 0;  
   background-color: #FEFEFE;
@@ -172,7 +178,11 @@ table td, thead th {
 }
 
 .items:first-child {
-    font-weight: bold;
+    font-weight: 500;
+}
+
+.items:before{
+    content: "\272F";
 }
 
 .benefits img {
