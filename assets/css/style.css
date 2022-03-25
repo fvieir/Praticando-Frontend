@@ -42,8 +42,7 @@
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
+
 }
 
 .form {
@@ -116,6 +115,13 @@ table td, thead th {
     clear: left;
 }
 
+.about {
+  margin: 3em 0;  
+  background-color: #FEFEFE;
+  width: 940px;
+  margin: 0 auto;
+}
+
 .about p {
     margin: 0 0 1em;
 }
@@ -130,13 +136,24 @@ table td, thead th {
     margin: 0 20px 20px 0;
 }
 
-.map ,.benefits {
+.map {
     padding: 3em 0 0;
+    background: linear-gradient(#FEFEFE, #888888)
+}
+
+.map-content {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .map p{
     margin: 2em 0;
     text-align: center;
+}
+
+.benefits {
+    padding: 3em 0 0;
+    background: #888888;
 }
 
 .benefits-contents {
