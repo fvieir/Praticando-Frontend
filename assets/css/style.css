@@ -113,6 +113,7 @@ table td, thead th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    color: rgba(0,0,0, 0.8);
 }
 
 .main-title::first-letter{
@@ -187,6 +188,12 @@ table td, thead th {
 
 .benefits img {
     width: 60%;
+    opacity: 0.4;
+    transition: 600ms;
+}
+
+.benefits img:hover {
+    opacity: 1;
 }
 
 .video{
