@@ -190,10 +190,12 @@ table td, thead th {
     width: 60%;
     opacity: 0.4;
     transition: 600ms;
+    box-shadow: 10px 10px 10px #000000;
 }
 
 .benefits img:hover {
     opacity: 1;
+    box-shadow: 10px 10px 10px rgba(0,0,0, 0.5);
 }
 
 .video{
@@ -213,4 +215,30 @@ table td, thead th {
     color: #FFF;
     margin: 20px 0;
     padding: 40px 0 ;
+}
+
+@media screen and (max-width:480px) {
+    .box, .about, .map-content, .benefits-contents, .video {
+        width: auto;
+    }
+
+    .box h1 {
+        text-align: center;
+    }
+
+    .menu{
+        position: static;
+    }
+
+    .menu .menu-items{
+        margin-left: 15px;
+    }
+
+    .menu-items a {
+        font-size: 20px;
+    }
+
+    .benefits-list,.benefits img {
+        width: 100%;
+    }
 }
