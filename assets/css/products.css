@@ -96,3 +96,30 @@ footer p{
     padding: 40px 0;
 }
 
+@media screen and (max-width:480px) {
+    .box-menu, .products {
+        width: auto;
+    }
+
+    .box-menu h1 {
+        text-align: center;
+    }
+
+    .menu {
+        position: static;
+    }
+
+    .menu a {
+        font-size: 20px;
+    }
+
+    .list-items-products{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .list-items-products img {
+        width: 100%;
+    }
+}
+
