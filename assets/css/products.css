@@ -88,6 +88,7 @@
 footer{
     text-align: center;
     background: url('/assets/img/products/bg.jpg');
+    padding: 20px;
 }
 
 footer p{

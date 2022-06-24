@@ -205,13 +205,13 @@ table td, thead th {
 
 /*Fim da Home*/
 
-.footer{
+footer{
     text-align: center;
     background: url('/assets/img/products/bg.jpg');
     padding: 20px;
 }
 
-.footer p{
+footer p{
     color: #FFF;
     margin: 20px 0;
     padding: 40px 0 ;
